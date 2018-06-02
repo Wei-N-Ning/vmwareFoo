@@ -1,6 +1,19 @@
 
 how to share files and directories between host machine and unix-like vm instances;
 
+sources:
+```
+# install VM tools
+https://kb.vmware.com/s/article/1022525
+
+# use vmhgfs and vmware-hgfsclient
+https://communities.vmware.com/thread/579226
+
+# unmount:
+https://tecadmin.net/mount-and-unmount-filesystem-in-linux/
+```
+
+
 create a shared directory entry
 -------------------------------
 
