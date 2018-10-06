@@ -123,5 +123,19 @@ curl http://192.168.1.134:8000
 lastly if the `NAT` vm client on gunship visits the `bridge` vm server,
 the server thinks the visitor is gunship (because of the encapsulation)
 
+updating the server-client hierarchy:
+```
+gunship
+ - vm U18 (NAT)
+ - macbook
+ - vm L17 (bridge)
 
+vm L17 (bridge)
+ - gunship
+ - macbook
+ - vm U18 (NAT) -- the visitor is considered gunship
+
+vm U18 (NAT)
+ - gunship
+```
 
